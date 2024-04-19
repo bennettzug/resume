@@ -1,0 +1,254 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+\usepackage[sfdefault]{inter}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\usepackage{calc} % added
+\newcommand{\resumeSubSubheadingLeft}[2]{% % added
+\begin{description}[leftmargin=!,labelwidth=\widthof{\small\bfseries #1}]
+    \item[\small #1]{\textit{\small  #2}}
+\end{description}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Bennett Zug} \\ \vspace{1pt}
+    \small 919-798-1090 $|$ \href{mailto:bennettzug@gmail.com}{\underline{bennettzug@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/bennett-zug/}{\underline{https://www.linkedin.com/in/bennett-zug/}} $|$
+    \href{https://github.com/bennettzug}{\underline{https://github.com/bennettzug}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Appalachian State University}{August 2022 -- May 2026}
+      {B.S in Computer Science, Minor in Mathematics $|$ GPA: 3.5 (Overall), 3.9 (Major)}{Boone, NC}
+      \resumeSubSubheadingLeft% added <<<<<<<<<<<<<<<
+    	{Relevant Coursework:}{Data Structures, Introduction to Theoretical Computer Science, Discrete Math, Linear Algebra}
+      
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Summer Technology Assistant}{Summers, 2018--2023}
+      {St Timothy's School}{Raleigh, NC}
+      \resumeItemListStart
+        \resumeItem{Managed Google accounts and Chrome devices for the middle school of 200+ students.}
+        \resumeItem{Automated account creation and updating in order to reduce man hours needed by 80\%.}
+        \resumeItem{Troubleshooted technology problems from other staff.}
+        \resumeItem{Grew into a leadership role amongst the group throughout the years.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    \resumeSubheading
+      {Youth Coach and Event Belayer}{October 2021 -- January 2023}
+      {Triangle Rock Club}{Raleigh, NC}
+      \resumeItemListStart
+        \resumeItem{Effectively communicated safety instructions and techniques to youth and adult climbers, emphasizing clear communication.}
+        \resumeItem{Implemented and enforced safety measures.}
+        \resumeItem{Managed after school youth programs, both directly leading children and delegating tasks to other employees.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{EquiB} $|$ \emph{React, Firebase}}{Hackathon Project}
+          \resumeItemListStart
+            \resumeItem{Worked with a team to develop a USDC based banking app in order to provide access to banking to the billions who cannot access traditional banking.}
+            \resumeItem{Won "Best Use of Circle" at HackNC 2023.}
+            
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
+	
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{Predicting Median Housing Prices} $|$ \emph{R, Python}}{}
+          \resumeItemListStart
+            \resumeItem{Built a web scraping script using the Selectolax HTML parser to download data from websites into a .csv format}
+            \resumeItem{Using R, built a linear regression model in order to predict median housing prices in each US metropolitan area}
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+     \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{MatrixOCR} $|$ \emph{Python, OpenCV, Tessearact, C++}}{}
+          \resumeItemListStart
+            \resumeItem{Built a command-line tool to extract mathematical matrices from images and then do mathematical operations on them, using image pre-processing and an Optical Character Recognition model}
+            \resumeItem{Ported the tool to from Python to C++ to optimize for performance and portability}
+            \resumeItem{Built matrix operations in C++}
+            
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+         \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{\href{https://www.class-search.com}{\underline{class-search.com}}} $|$ \emph{Python, Flask, PyTorch, Svelte, PostgreSQL}}{}
+          \resumeItemListStart
+            	\resumeItem{Computed embeddings for gathered class data from multiple universities websites}            
+            	\resumeItem{Built a backend to compute embeddings for users queries, and then look up similar embeddings with pgvector in PostgreSQL}
+            	\resumeItem{Designed a reactive frontend in Svelte}
+            	\resumeItem{Deployed Flask web server to the internet with Gunicorn and Nginx}
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
+	
+
+%-------------ORGANIZATIONS-------------
+
+\section{Organizations}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+      {FTC 2901 Member}{August 2018 -- May 2020}
+      {Cardinal Gibbons High School}{Raleigh, NC}
+      \resumeItemListStart
+      	\resumeItem{Worked on a FTC team as a programmer during high school.}
+      	\resumeItem{Focused on movement code for the autonomous driving of the robot, written in Java.}
+        \resumeItem{Collaborated to qualify for the FIRST Tech Challenge Nationals (cancelled due to COVID-19 pandemic).}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------TECHNICAL SKILLS-----------
+
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, R, 
+     \LaTeX, C++, SQL (Postgres), HTML/CSS} \\
+     \textbf{Developer Tools}{: Git, Vim, VSCode} \\
+    \textbf{Frameworks}{: Svelte, Flask}\\
+    \textbf{Libaries}{: OpenCV, PyTorch, Numpy, Pandas, Selectolax}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
