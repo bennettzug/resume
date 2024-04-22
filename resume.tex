@@ -128,47 +128,12 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Appalachian State University}{August 2022 -- May 2026}
-      {B.S in Computer Science, Minor in Mathematics $|$ GPA: 3.5 (Overall), 3.9 (Major)}{Boone, NC}
+      {Appalachian State University}{August 2022 -- Present}
+      {B.S in Computer Science, Minor in Mathematics $|$ GPA: 3.9/4.0 (Major), 3.5/4.0 (Overall)}{Boone, NC}
       \resumeSubSubheadingLeft% added <<<<<<<<<<<<<<<
     	{Relevant Coursework:}{Data Structures, Introduction to Theoretical Computer Science, Discrete Math, Linear Algebra}
       
     
-  \resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Summer Technology Assistant}{Summers, 2018--2023}
-      {St Timothy's School}{Raleigh, NC}
-      \resumeItemListStart
-        \resumeItem{Managed Google accounts and Chrome devices for the middle school of 200+ students.}
-        \resumeItem{Automated account creation and updating in order to reduce man hours needed by 80\%.}
-        \resumeItem{Troubleshooted technology problems from other staff.}
-        \resumeItem{Grew into a leadership role amongst the group throughout the years.}
-      \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-    \resumeSubheading
-      {Youth Coach and Event Belayer}{October 2021 -- January 2023}
-      {Triangle Rock Club}{Raleigh, NC}
-      \resumeItemListStart
-        \resumeItem{Effectively communicated safety instructions and techniques to youth and adult climbers, emphasizing clear communication.}
-        \resumeItem{Implemented and enforced safety measures.}
-        \resumeItem{Managed after school youth programs, both directly leading children and delegating tasks to other employees.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 
@@ -179,8 +144,8 @@
      \resumeProjectHeading
           {\textbf{EquiB} $|$ \emph{React, Firebase}}{Hackathon Project}
           \resumeItemListStart
-            \resumeItem{Worked with a team to develop a USDC based banking app in order to provide access to banking to the billions who cannot access traditional banking.}
-            \resumeItem{Won "Best Use of Circle" at HackNC 2023.}
+            \resumeItem{Collaborated in a team to develop a React web app called EquiB at HackNC 2023 with the goal of demonstrating a blockchain-based banking concept.}
+            \resumeItem{Won the "Best Use of Circle" prize category for utilizing Circle's USDC stablecoin platform in the proposed application design.}
             
          \resumeItemListEnd
     \resumeSubHeadingListEnd
@@ -189,18 +154,19 @@
      \resumeProjectHeading
           {\textbf{Predicting Median Housing Prices} $|$ \emph{R, Python}}{}
           \resumeItemListStart
-            \resumeItem{Built a web scraping script using the Selectolax HTML parser to download data from websites into a .csv format}
-            \resumeItem{Using R, built a linear regression model in order to predict median housing prices in each US metropolitan area}
+            \resumeItem{Performed web scraping using Python and Selectolax HTML parser to collect structured data from websites into a CSV format, enabling efficient data acquisition for analysis.}
+            \resumeItem{Developed a linear regression model in R to predict median housing prices across U.S. metropolitan areas based on various socioeconomic factors.}
+            \resumeItem{Evaluated model performance using metrics like R-squared and RMSE, compared against other architectures like random forests, and visualized results with ggplot2.}
          \resumeItemListEnd
     \resumeSubHeadingListEnd
     
      \resumeSubHeadingListStart
      \resumeProjectHeading
-          {\textbf{MatrixOCR} $|$ \emph{Python, OpenCV, Tessearact, C++}}{}
+          {\textbf{MatrixOCR} $|$ \emph{Python, OpenCV, Tesseract, SymPy}}{}
           \resumeItemListStart
-            \resumeItem{Built a command-line tool to extract mathematical matrices from images and then do mathematical operations on them, using image pre-processing and an Optical Character Recognition model}
-            \resumeItem{Ported the tool to from Python to C++ to optimize for performance and portability}
-            \resumeItem{Built matrix operations in C++}
+            \resumeItem{Developed a Python command-line tool to automatically extract mathematical matrices from images by integrating OpenCV for image pre-processing and Tesseract OCR engine, enabling efficient data extraction from screenshots.}
+            \resumeItem{Leveraged SymPy library to perform Gauss-Jordan elimination and other matrix operations on the extracted matrices.}
+            \resumeItem{Optimized image pre-processing pipeline using OpenCV functions like thresholding and contour detection to improve matrix detection accuracy to $>$95\%}
             
          \resumeItemListEnd
     \resumeSubHeadingListEnd
@@ -209,13 +175,41 @@
      \resumeProjectHeading
           {\textbf{\href{https://www.class-search.com}{\underline{class-search.com}}} $|$ \emph{Python, Flask, PyTorch, Svelte, PostgreSQL}}{}
           \resumeItemListStart
-            	\resumeItem{Computed embeddings for gathered class data from multiple universities websites}            
-            	\resumeItem{Built a backend to compute embeddings for users queries, and then look up similar embeddings with pgvector in PostgreSQL}
-            	\resumeItem{Designed a reactive frontend in Svelte}
-            	\resumeItem{Deployed Flask web server to the internet with Gunicorn and Nginx}
+          		\resumeItem{Developed a web application to search and discover relevant university courses by computing vector embeddings for over 30,000 gathered course descriptions from multiple instututions using PyTorch and pre-trained language models.}
+          		\resumeItem{Built a Flask backend to efficiently match user queries against the corpus of course embeddings by leveraging PostgreSQL with the pgvector extension for fast approximate nearest neighbor search.}
+          		\resumeItem{Designed an interactive Svelte frontend with features like university selection, course search within institutions, and dynamic content updates to provide a seamless user experience.}
+          		\resumeItem{Deployed the Flask web server to production using Gunicorn and Nginx, ensuring high availability and sub-200ms search latency through optimized vector search without external API calls.}
+
          \resumeItemListEnd
     \resumeSubHeadingListEnd
 	
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Summer Technology Assistant}{Summers, 2018--2023}
+      {St Timothy's School}{Raleigh, NC}
+      \resumeItemListStart
+        \resumeItem{Managed Google accounts and Chrome devices for the middle school of over 200 students, utilizing automated account provisioning to reduce manual effort by 80\%.}
+        \resumeItem{Demonstrated strong problem-solving abilities by independently troubleshooting and resolving technology issues reported by staff while providing clear guidance.}
+        \resumeItem{Troubleshooted technology problems from other staff.}
+        \resumeItem{Grew into a leadership role over successive summers by proactively identifying process improvements to enhance overall technology support efficiency.}
+      \resumeItemListEnd
+      
+
+    \resumeSubheading
+      {Youth Coach and Event Belayer}{October 2021 -- January 2023}
+      {Triangle Rock Club}{Raleigh, NC}
+      \resumeItemListStart
+        \resumeItem{Effectively communicated safety instructions and climbing techniques to youth and adult climbers in a clear and engaging manner to ensure a secure and enjoyable experience.}
+        \resumeItem{Managed after-school youth programs by coordinating activities, delegating tasks to staff, and ensuring a structured yet fun experience for participants.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
 
 %-------------ORGANIZATIONS-------------
 
@@ -226,9 +220,9 @@
       {FTC 2901 Member}{August 2018 -- May 2020}
       {Cardinal Gibbons High School}{Raleigh, NC}
       \resumeItemListStart
-      	\resumeItem{Worked on a FTC team as a programmer during high school.}
-      	\resumeItem{Focused on movement code for the autonomous driving of the robot, written in Java.}
-        \resumeItem{Collaborated to qualify for the FIRST Tech Challenge Nationals (cancelled due to COVID-19 pandemic).}
+      	\resumeItem{Contributed as a programmer on the FIRST Tech Challenge robotics team to develop autonomous driving capabilities for the competition robot using Java.}
+      	\resumeItem{Collaborated in a team environment to enhance the robot's movement code quality through code refactoring}
+        \resumeItem{Played a key role in enabling the team to qualify for FTC Nationals by delivering robust autonomous navigation software adhering to competition guidelines.}
       \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -241,11 +235,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, R, 
-     \LaTeX, C++, SQL (Postgres), HTML/CSS} \\
-     \textbf{Developer Tools}{: Git, Vim, VSCode} \\
-    \textbf{Frameworks}{: Svelte, Flask}\\
-    \textbf{Libaries}{: OpenCV, PyTorch, Numpy, Pandas, Selectolax}
+     \textbf{Languages}{: Java, Python, R, SQL, HTML/CSS, \LaTeX} \\
+     
+    \textbf{Frameworks/Libraries}{: Svelte, Flask, PyTorch, NumPy, Pandas, OpenCV}\\
+    \textbf{Tools/Platforms}{: Git, Vim, VS Code, PostgreSQL}
     }}
  \end{itemize}
 
