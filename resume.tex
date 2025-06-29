@@ -124,12 +124,18 @@
 \end{center}
 
 
+%------------SUMMARY------------
+
+%\section{Summary}
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
       \resumeSubheading
       {North Carolina State University}{August 2024 -- Present}
-      {B.S in Computer Science $|$ 4.0 GPA}{Raleigh, NC}
+      {B.S in Computer Science, Minor in Mathematics $|$ 3.6 GPA, 3.9 Major GPA}{Raleigh, NC}
+      \resumeSubSubheadingLeft% added <<<<<<<<<<<<<<<
+    	{Relevant Coursework:}{Automated Learning and Data Analysis, Mathematics of Scientific Computing, Operating Systems, Natural Language Processing, Dynamic Systems and Multivariate Control}
     \resumeSubheading
       {Appalachian State University}{August 2022 -- May 2024}
       {Studied Computer Science, Minor in Mathematics $|$ 3.9 GPA}{Boone, NC}
@@ -145,11 +151,11 @@
 
          \resumeSubHeadingListStart
      \resumeProjectHeading
-          {\textbf{\href{https://www.class-search.com}{\underline{class-search.com}}} $|$ \emph{Python, Flask, PyTorch, Svelte, PostgreSQL}}{}
+          {\textbf{\href{https://www.class-search.com}{\underline{class-search.com}}} $|$ \emph{Python, Flask, PyTorch, PostgreSQL}}{}
           \resumeItemListStart
           		\resumeItem{Developed a web application to search and discover relevant university courses by computing vector embeddings for over 30,000 gathered course descriptions from multiple institutions using PyTorch and pre-trained language models.}
           		\resumeItem{Built a Flask backend to efficiently match user queries against the corpus of course embeddings by leveraging PostgreSQL with the pgvector extension for fast approximate nearest neighbor search.}
-          		\resumeItem{Designed an interactive Svelte frontend with dynamic content updates to provide a seamless user experience.}
+          		\resumeItem{Designed an interactive frontend with dynamic content updates to provide a seamless user experience.}
           		\resumeItem{Deployed the Flask web server to production using Gunicorn and Nginx, ensuring high availability and sub-200ms search latency through optimized vector search without external API calls.}
 
          \resumeItemListEnd
@@ -160,36 +166,19 @@
           {\textbf{MatrixOCR} $|$ \emph{Python, OpenCV, Tesseract, SymPy}}{}
           \resumeItemListStart
             \resumeItem{Developed a Python command-line tool to automatically extract mathematical matrices from images by integrating OpenCV for image pre-processing and Tesseract OCR engine, enabling efficient data extraction from screenshots.}
-            \resumeItem{Leveraged SymPy library to perform Gauss-Jordan elimination and other matrix operations on the extracted matrices.}
             \resumeItem{Optimized image pre-processing pipeline using OpenCV functions like thresholding and contour detection to improve matrix detection accuracy to $>$95\%}
             
          \resumeItemListEnd
     \resumeSubHeadingListEnd
     
-    
-%    \resumeSubHeadingListStart
-%     \resumeProjectHeading
-%          {\textbf{EquiB} $|$ \emph{React, Firebase}}{Hackathon Project}
-%          \resumeItemListStart
-%            \resumeItem{Collaborated in a team to develop a React web app called EquiB at HackNC 2023 with the goal of demonstrating a blockchain-based banking concept.}
-%            \resumeItem{Won the "Best Use of Circle" prize category for utilizing Circle's USDC stablecoin platform in the proposed application design.}
-%            
-%         \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-	
-%    \resumeSubHeadingListStart
-%     \resumeProjectHeading
-%          {\textbf{Predicting Median Housing Prices} $|$ \emph{R, Python}}{}
-%          \resumeItemListStart
-%            \resumeItem{Performed web scraping using Python and Selectolax HTML parser to collect structured data from websites into a CSV format, enabling efficient data acquisition for analysis.}
-%            \resumeItem{Developed a linear regression model in R to predict median housing prices across U.S. metropolitan areas based on various socioeconomic factors.}
-%            \resumeItem{Evaluated model performance using metrics like R-squared and RMSE, compared against other architectures like random forests, and visualized results with ggplot2.}
-%         \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-    
-
-    
-
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{Self-Supervised Learning with SimCLR} $|$ \emph{Final Project – CSC 422, North Carolina State University}}{}
+          \resumeItemListStart
+            \resumeItem{Evaluated the SimCLR framework on STL-10 using a provided PyTorch implementation, modified the codebase to log learned embeddings and generate t-SNE visualizations across training epochs.}
+           	\resumeItem{Co-authored a NeurIPS-style research paper summarizing methodology, results, and relevance to data-scarce domains like medical imaging.}
+         \resumeItemListEnd
+    \resumeSubHeadingListEnd
 	
 
 %-----------EXPERIENCE-----------
@@ -197,12 +186,11 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Summer Technology Assistant}{Summers, 2018--2023}
+      {Information Technology Assistant}{Summers, 2018--2023}
       {St Timothy's School}{Raleigh, NC}
       \resumeItemListStart
-        \resumeItem{Managed Google accounts and Chrome devices for the middle school of over 200 students, utilizing automated account provisioning to reduce manual effort by 80\%.}
+        \resumeItem{Managed online accounts and prepared education hardware for over 550 students and 100 faculty members.}
         \resumeItem{Demonstrated strong problem-solving abilities by independently troubleshooting and resolving technology issues reported by staff while providing clear guidance.}
-        \resumeItem{Troubleshooted technology problems from other staff.}
         \resumeItem{Grew into a leadership role over successive summers by proactively identifying process improvements to enhance overall technology support efficiency.}
       \resumeItemListEnd
       
