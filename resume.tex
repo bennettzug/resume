@@ -133,7 +133,7 @@
   \resumeSubHeadingListStart
       \resumeSubheading
       {North Carolina State University}{August 2024 -- Present}
-      {B.S in Computer Science, Minor in Mathematics $|$ 3.6 GPA, 3.9 Major GPA}{Raleigh, NC}
+      {B.S in Computer Science, Minor in Mathematics $|$ 3.5 GPA}{Raleigh, NC}
       \resumeSubSubheadingLeft% added <<<<<<<<<<<<<<<
     	{Relevant Coursework:}{Automated Learning and Data Analysis, Mathematics of Scientific Computing, Operating Systems, Natural Language Processing, Dynamic Systems and Multivariate Control}
     \resumeSubheading
@@ -161,24 +161,29 @@
          \resumeItemListEnd
     \resumeSubHeadingListEnd
     
-         \resumeSubHeadingListStart
-     \resumeProjectHeading
-          {\textbf{MatrixOCR} $|$ \emph{Python, OpenCV, Tesseract, SymPy}}{}
-          \resumeItemListStart
-            \resumeItem{Developed a Python command-line tool to automatically extract mathematical matrices from images by integrating OpenCV for image pre-processing and Tesseract OCR engine, enabling efficient data extraction from screenshots.}
-            \resumeItem{Optimized image pre-processing pipeline using OpenCV functions like thresholding and contour detection to improve matrix detection accuracy to $>$95\%}
-            
-         \resumeItemListEnd
-    \resumeSubHeadingListEnd
+ \resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{WolfCafe} $|$ \emph{React, JavaScript, Java, Spring Boot, Tailwind CSS, shadcn/ui}}{}
+\resumeItemListStart
+\resumeItem{Led a complete frontend redesign for a simulated coffee shop ordering and inventory system developed as a semester-long team project.}
+\resumeItem{Built a modern React frontend using Tailwind CSS and shadcn/ui components, improving layout consistency, accessibility, and overall user experience.}
+\resumeItem{Implemented dynamic views for order placement, inventory management, and administrative workflows, coordinating closely with backend APIs.}
+\resumeItem{Contributed to backend development in Spring Boot, including API integration and data model updates to support frontend features.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
     
-    \resumeSubHeadingListStart
-     \resumeProjectHeading
-          {\textbf{Self-Supervised Learning with SimCLR} $|$ \emph{Final Project – CSC 422, North Carolina State University}}{}
-          \resumeItemListStart
-            \resumeItem{Evaluated the SimCLR framework on STL-10 using a provided PyTorch implementation, modified the codebase to log learned embeddings and generate t-SNE visualizations across training epochs.}
-           	\resumeItem{Co-authored a NeurIPS-style research paper summarizing methodology, results, and relevance to data-scarce domains like medical imaging.}
-         \resumeItemListEnd
-    \resumeSubHeadingListEnd
+ \resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Automated GitHub Issue Labeling} $|$ \emph{Python, Transformers, LLM Prompting, DistilBERT, LoRA}}{}
+\resumeItemListStart
+\resumeItem{Designed and evaluated an NLP system to automatically label GitHub issues (bug, enhancement, question) using both fine-tuned transformer models and LLM-based prompt engineering.}
+\resumeItem{Led LLM prompting and evaluation, comparing prompt-based classification against fine-tuned DistilBERT models in terms of F1 score, stability, latency, and deployment cost.}
+\resumeItem{Demonstrated that a fine-tuned DistilBERT model outperformed LLM-based labeling while avoiding external API calls, achieving F1 $>$0.93 on manually labeled issues.}
+\resumeItem{Analyzed failure modes of LLM classifiers, including sensitivity to wording and inconsistent label assignments, motivating the use of smaller, locally deployable models.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
 	
 
 %-----------EXPERIENCE-----------
@@ -207,36 +212,24 @@
 
 
 
-%-------------ORGANIZATIONS-------------
-
-\section{Organizations}
-\resumeSubHeadingListStart
-
-\resumeSubheading
-      {FTC 2901 Member}{August 2018 -- May 2020}
-      {Cardinal Gibbons High School}{Raleigh, NC}
-      \resumeItemListStart
-      	\resumeItem{Contributed as a programmer on the FIRST Tech Challenge robotics team to develop autonomous driving capabilities for the competition robot using Java.}
-      	\resumeItem{Collaborated in a team environment to enhance the robot's movement code quality through code refactoring}
-        \resumeItem{Played a key role in enabling the team to qualify for FTC Nationals by delivering robust autonomous navigation software adhering to competition guidelines.}
-      \resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
 
 
 %-----------TECHNICAL SKILLS-----------
 
 
 \section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, R, SQL, HTML/CSS, \LaTeX} \\
-     
-    \textbf{Frameworks/Libraries}{: Svelte, Flask, PyTorch, NumPy, Pandas, OpenCV}\\
-    \textbf{Tools/Platforms}{: Git, Vim, VS Code, PostgreSQL}
-    }}
- \end{itemize}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages}{: Python, Java, JavaScript, SQL, HTML/CSS, \LaTeX} \\
+
+\textbf{Frameworks / Libraries}{: React, Tailwind CSS, shadcn/ui, Spring Boot, Flask, PyTorch, NumPy, Pandas} \\
+
+\textbf{ML / NLP}{: Transformers, LLM Prompting \& Evaluation, DistilBERT, LoRA, t-SNE, Vector Embeddings} \\
+
+\textbf{Tools / Platforms}{: Git, GitHub, PostgreSQL (pgvector), Weights \& Biases, VS Code}
+}}
+\end{itemize}
+
 
 
 %-------------------------------------------
