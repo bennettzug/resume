@@ -132,10 +132,10 @@
 \section{Education}
   \resumeSubHeadingListStart
       \resumeSubheading
-      {North Carolina State University}{August 2024 -- Present}
-      {B.S in Computer Science, Minor in Mathematics $|$ 3.5 GPA}{Raleigh, NC}
+      {North Carolina State University}{August 2024 -- May 2026}
+      {B.S in Computer Science, Minor in Mathematics $|$ 3.6 GPA $|$ Magna Cum Laude}{Raleigh, NC}
       \resumeSubSubheadingLeft% added <<<<<<<<<<<<<<<
-    	{Relevant Coursework:}{Automated Learning and Data Analysis, Mathematics of Scientific Computing, Operating Systems, Natural Language Processing, Dynamic Systems and Multivariate Control}
+    	{Relevant Coursework:}{Automated Learning and Data Analysis, Mathematics of Scientific Computing, Operating Systems, Natural Language Processing, Software Engineering and AI}
     \resumeSubheading
       {Appalachian State University}{August 2022 -- May 2024}
       {Studied Computer Science, Minor in Mathematics $|$ 3.9 GPA}{Boone, NC}
@@ -160,15 +160,14 @@
 
          \resumeItemListEnd
     \resumeSubHeadingListEnd
-    
- \resumeSubHeadingListStart
+    \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{WolfCafe} $|$ \emph{React, JavaScript, Java, Spring Boot, Tailwind CSS, shadcn/ui}}{}
+{\textbf{AI Redaction Service (Bandwidth)} $|$ \emph{React, Flask, Python, Microsoft Presidio, AWS Bedrock, Docker}}{}
 \resumeItemListStart
-\resumeItem{Led a complete frontend redesign for a simulated coffee shop ordering and inventory system developed as a semester-long team project.}
-\resumeItem{Built a modern React frontend using Tailwind CSS and shadcn/ui components, improving layout consistency, accessibility, and overall user experience.}
-\resumeItem{Implemented dynamic views for order placement, inventory management, and administrative workflows, coordinating closely with backend APIs.}
-\resumeItem{Contributed to backend development in Spring Boot, including API integration and data model updates to support frontend features.}
+\resumeItem{Built an MVP PII redaction pipeline for Bandwidth, a CPaaS company, to automatically scrub sensitive information from call transcripts before storage or downstream use.}
+\resumeItem{Designed a layered detection system combining Microsoft Presidio regex rules for structured PII and an AWS Bedrock LLM pass for context-dependent PII, replacing identified data with standardized \texttt{[REDACTED\_<PII>]} tokens.}
+\resumeItem{Architected the solution as Docker containerized microservices coordinated by a Flask API layer, deployed on AWS ECS, with a React frontend supporting text input, file upload, and per-category redaction configuration.}
+\resumeItem{Achieved 80\%+ redaction accuracy across 13 PII categories including phone numbers, SSNs, credit cards, and names, validated through unit, acceptance, and end-to-end integration testing.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
